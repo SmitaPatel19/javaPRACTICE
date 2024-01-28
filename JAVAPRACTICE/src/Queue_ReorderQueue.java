@@ -13,6 +13,8 @@ public class Queue_ReorderQueue {
         qu.add(7);
         qu.add(8);
 
+        System.out.println("Original Queue: "+qu);
+
         Stack<Integer> st=new Stack<>();
         int n=qu.size();
         int n1=n/2;
