@@ -42,7 +42,7 @@ public class HashMap_implementation {
             return -1;
         }
 
-        private void rehase(){
+        private void rehash(){
             LinkedList<Node> []oldBucket=buckets;
             initBuckets(oldBucket.length*2);
             n=0;
