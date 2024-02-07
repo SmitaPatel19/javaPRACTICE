@@ -1,7 +1,7 @@
 import java.util.*;
 public class Recursion2_factorial {
 
-    public static int factorial(int n){
+    private static int factorial(int n){
         if(n==0 || n==1){
             System.out.print("1 ");
             return 1;

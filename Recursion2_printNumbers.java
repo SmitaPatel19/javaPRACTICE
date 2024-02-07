@@ -1,7 +1,7 @@
 import  java.util.*;
 public class Recursion2_printNumbers {
     
-    public static void print(int n){
+    private static void print(int n){
 
         if(n==0){
             System.out.print(n+" ");

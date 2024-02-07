@@ -1,7 +1,7 @@
 import java.util.*;
 public class Recursion2_fibonacciSequence {
 
-    public static void fibonacci(int a, int b,int n){
+    private static void fibonacci(int a, int b,int n){
         if(n==0){
             return;
         }

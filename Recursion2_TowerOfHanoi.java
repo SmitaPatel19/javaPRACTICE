@@ -1,7 +1,7 @@
 import java.util.*;
 public class Recursion2_TowerOfHanoi {
 
-    public static void TowerOfHanoi(int n, String src, String help, String dest){
+    private static void TowerOfHanoi(int n, String src, String help, String dest){
         if(n==1){
             System.out.println("Transfer plate "+n+" from "+src+" to "+dest);
             return;

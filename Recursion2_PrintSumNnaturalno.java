@@ -1,7 +1,7 @@
 import java.util.*;
 public class Recursion2_PrintSumNnaturalno {
 
-    public static int Sum(int n, int sum){
+    private static int Sum(int n, int sum){
         if(n == 0){
             return 0;   
         }

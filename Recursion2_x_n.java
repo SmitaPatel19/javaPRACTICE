@@ -1,7 +1,7 @@
 import java.util.*;
 public class Recursion2_x_n {
 
-    public static int Calculate(int x, int n){
+    private static int Calculate(int x, int n){
         if(x==0){
             return 0;
         }
